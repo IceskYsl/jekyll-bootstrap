@@ -1,0 +1,13 @@
+--- 
+layout: post
+comments: true
+title: !binary |
+  T3JhY2xl5Lit55qE5oiq5Y+W5a2X56ym5pu05paw
+
+date: "2007-12-29"
+link: false
+categories: life
+---
+<p>update bizobj_extend_value t <br />
+set t.extend_value = substr(t.extend_value,1,10) <br />
+where extend_key = 'BOSSID'&nbsp; and&nbsp; lengthb(trim(t.extend_value) )&gt; 20&nbsp;&nbsp;</p>

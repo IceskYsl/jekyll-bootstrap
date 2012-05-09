@@ -1,0 +1,34 @@
+--- 
+layout: post
+comments: true
+title: !binary |
+  cmFpbHMtMi4zLjQg5Y+R5biD5LqG
+
+date: "2009-10-14"
+link: false
+categories: life
+---
+Ruby on Rails 2.3.4, this release fixes bugs and introduces a few minor features. Due to the inclusion of two security fixes, all users of the 2.3 series are recommended to upgrade as soon as possible.
+
+C:\Documents and Settings\Administrator&gt;gem install rails
+Successfully installed activesupport-2.3.4
+Successfully installed activerecord-2.3.4
+Successfully installed actionpack-2.3.4
+Successfully installed actionmailer-2.3.4
+Successfully installed activeresource-2.3.4
+Successfully installed rails-2.3.4
+6 gems installed
+Installing ri documentation for activesupport-2.3.4...
+Installing ri documentation for activerecord-2.3.4...
+Installing ri documentation for actionpack-2.3.4...
+Installing ri documentation for actionmailer-2.3.4...
+Installing ri documentation for activeresource-2.3.4...
+Installing RDoc documentation for activesupport-2.3.4...
+Installing RDoc documentation for activerecord-2.3.4...
+Installing RDoc documentation for actionpack-2.3.4...
+Installing RDoc documentation for actionmailer-2.3.4...
+Installing RDoc documentation for activeresource-2.3.4...
+
+详细信息：
+
+<a href="http://weblog.rubyonrails.org/2009/9/4/ruby-on-rails-2-3-4">http://weblog.rubyonrails.org/2009/9/4/ruby-on-rails-2-3-4</a>

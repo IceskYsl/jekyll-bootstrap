@@ -1,0 +1,9 @@
+--- 
+layout: post
+comments: true
+title: Introducing the AJAX Feed API FeedControl
+date: 2007-5-19
+link: false
+categories: life
+---
+Google放出来的AJAX feed API我老早就关注到了，也试用了一些，感觉还真的不错，现在又添加了一些东西，如下：其API都很简单，详细的可以看这个页面上的介绍：http://code.google.com/apis/ajaxfeeds/documentation/reference.html#FeedControl只有一个构造器：FeedControl四个函数：1.addFeed(url, label) //添加需要显示的FEED的URL2.addFeed(element, opt_options?)；//这个其实就是draw方法，指定显示的方式，例如：feedControl.draw(  document.getElementById(&quot;feedControl&quot;),   {    drawMode : google.feeds.FeedControl.DRAW_MODE_TABBED  });feedControl这个是页面的DOM的ID名称，google.feeds.FeedControl.DRAW_MODE_TABBED 就是指定的显示方式，默认值是：google.feeds.FeedControl.DRAW_MODE_LINEAR.3.setNumEntries(num)； //设定显示的条数（貌似只能统一指定，不能为各个FEED单独指定）4.setLinkTarget(linkTarget) //设定链接的打开方式，其值分别如下：    * google.feeds.LINK_TARGET_BLANK - links will open in a new window    * google.feeds.LINK_TARGET_SELF - links will open in the current window    * google.feeds.LINK_TARGET_TOP - links will open in the topmost frame    * google.feeds.LINK_TARGET_PARENT - links will open in either the topmost frame, or replace the current frame.    * anything-else - the value of target in the resulting anchor element is set to linkTarget附录其网站上的说明：---------------This morning we added a new class to the Google AJAX Feed API designed to allow you to more easily add a collection of feeds to your pages. The FeedControl is pretty simple:var feedControl = new google.feeds.FeedControl();feedControl.addFeed(&quot;http://www.digg.com/rss/index.xml&quot;, &quot;Digg&quot;);feedControl.addFeed(&quot;http://feeds.feedburner.com/Techcrunch&quot;, &quot;TechCrunch&quot;);feedControl.draw(document.getElementById(&quot;feedControl&quot;));In addition to the formal documentation, we have put together a few samples to help you quickly come up to speed.    * Basic FeedControl - feedcontrol.html    * Tabbed FeedControl - tabbed.html    * Sidebar Style FeedControl - sidebar.html    * AJAX Feed API Playground Blog

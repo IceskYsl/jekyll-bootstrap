@@ -1,0 +1,13 @@
+--- 
+layout: post
+comments: true
+title: !binary |
+  5LiL5Y2I5ZCv56iL5Y675YyX5LqsLOacieivt+mlreeahOayoe+8nw==
+
+date: 2008-7-2
+link: false
+categories: life
+---
+工作需要，出差北京，晚上7点飞机，深圳到北京。
+
+第一次去北京，充满期待，有请我吃饭的没？

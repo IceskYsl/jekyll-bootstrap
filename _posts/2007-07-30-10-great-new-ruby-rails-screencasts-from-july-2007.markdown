@@ -1,0 +1,9 @@
+--- 
+layout: post
+comments: true
+title: 10 Great New Ruby / Rails Screencasts from July 2007
+date: 2007-7-30
+link: false
+categories: life
+---
+这里列举了十个很不错的视频教程，但是都是老外的，打击可以看看，很不错的！http://www.rubyinside.com/12-great-new-ruby-rails-screencasts-from-july-2007-566.html

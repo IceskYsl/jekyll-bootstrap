@@ -1,0 +1,18 @@
+--- 
+layout: post
+comments: true
+title: !binary |
+  W1JhaWxzMi4yXSDlgLzlvpfmnJ/lvoXnmoRpbnRlcm5hdGlvbmFsaXphdGlv
+  bg==
+
+date: 2008-8-31
+link: false
+categories: life
+---
+<strong>Rails2.2</strong>的脚步越来越近了，虽然Rails2.1才放出来没多久，不可否认的是Rails2.2的脚本也越来越近了，近期可以看到一些在Rails2.2中可能会包含的功能，值得期待和预先了解下。
+
+除了上次说到的Rails2.2中会实现<a href="http://weblog.rubyonrails.org/2008/8/16/josh-peek-officially-joins-the-rails-core">线程安全</a>外，今天在其weblog上看到，将包含另外一个很值得期待的功能：<strong>internationalization</strong>。
+
+Rails2.2中将提供<a href="http://weblog.rubyonrails.org/2008/8/27/demo-of-rails-2-2-internationalization">internationalization</a>这个功能，有了这个功能，就可以更加方便的制作国际化的网站了，非常棒。以前我们都是使用插件的方式解决这个问题，可以选择的插件也挺多，各有优缺点，有的也有些bug，需要自己hack下，以后rails2.2中包含了i18n后，该有多方便呀。
+
+Clemens Kofler’s已经做了个<a href="http://i18n-demo.phusion.nl/pages/setup">demo的演示</a>，也提供了其<a href="http://github.com/karmi/rails_i18n_demo_app/tree/master">代码</a>，感兴趣的可以体检熟悉下。

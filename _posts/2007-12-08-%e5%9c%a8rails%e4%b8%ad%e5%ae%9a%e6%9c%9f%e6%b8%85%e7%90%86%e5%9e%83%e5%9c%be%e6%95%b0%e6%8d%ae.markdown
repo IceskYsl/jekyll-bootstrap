@@ -1,0 +1,16 @@
+--- 
+layout: post
+comments: true
+title: !binary |
+  5ZyoUmFpbHPkuK3lrprmnJ/muIXnkIblnoPlnL7mlbDmja4=
+
+date: 2007-12-8
+link: false
+categories: life
+---
+<p>linux上用来清除长时不用的session的cron命令：<br />
+$RAILS_APP_DIR/script/runner 'ActiveRecord::Base.connection.delete(&quot;DELETE FROM sessions WHERE updated_at &lt; now() - INTERVAL 1 HOUR&quot;)<br />
+<br />
+参考：<br />
+http://rubyasylum.com/articles/2006/06/04/cron-job-tips-for-rails<br />
+http://www.cslog.cn/articles/search?q=sessions</p>

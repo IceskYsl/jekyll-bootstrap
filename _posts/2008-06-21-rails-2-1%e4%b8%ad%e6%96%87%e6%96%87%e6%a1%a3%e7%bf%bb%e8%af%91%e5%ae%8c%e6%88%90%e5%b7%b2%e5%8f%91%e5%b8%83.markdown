@@ -1,0 +1,17 @@
+--- 
+layout: post
+comments: true
+title: !binary |
+  UmFpbHMgMi4x5Lit5paH5paH5qGj57+76K+R5a6M5oiQW+W3suWPkeW4g10=
+
+date: 2008-6-21
+link: false
+categories: life
+---
+<p>前几天发布了一篇文章说我们正在翻译Rails 2.1文档《<a href="http://iceskysl.1sters.com/?action=show&amp;id=313">协作翻译: Ruby On Raisl 2.1新特性（第二版）</a>》，经过3天不到的时间，我们就完稿了，参与翻译的都是COR中的做Rails的朋友，大家都很积极，从那天下午我做出&ldquo;<a href="http://docs.google.com/Doc?id=dhf86kr9_328grp92qfx">协作约定</a>&rdquo;开始领取翻译任务后，半天时间就认领完毕了，不得不赞下大家的热情和速度，特别是snow同学，上来就挑了个最大块头的第二章，呵呵。</p>
+<p>最后是我整理生成PDF文档的，现在已经发布出去，需要的朋友可以在这里看到&ldquo;<a href="http://chinaonrails.com/topic/view/1754.html">Ruby on Rails 2.1更新了什么？</a>&rdquo;，另外，infoQ也发布了新闻&ldquo;<a href="http://www.infoq.com/cn/news/2008/06/ruby-doc-release">Rails 2.1中文文档翻译计划完成</a>&rdquo;。</p>
+<p>另外，你可以通过如下几个方式查看：</p>
+<p>1、在slideshare上观看<a href="http://www.slideshare.net/Caiwangqin/chinaonrails-rubyonrails21-zh/">PPT版本</a></p>
+<p>2、通过Google Site上可以查看最新版本的google Doc，地址在<a href="http://sites.google.com/site/iceskysl/acticles/ruby-on-rails-21%E6%96%B0%E7%89%B9%E6%80%A7%E4%BB%8B%E7%BB%8D/introduction">我的GoogleSite</a>上。</p>
+<p>3、Google Doc上的索引页面&quot;<a href="http://docs.google.com/View?docid=dhf86kr9_329f9wn5gfr&amp;revision=_latest">Ruby On Rails 2.1新特性介绍</a>&quot;.</p>
+<p>如果你发现错误的地方，或者有其他意见，请联系我修正，谢谢。</p>

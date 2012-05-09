@@ -1,0 +1,13 @@
+--- 
+layout: post
+comments: true
+title: !binary |
+  6YGt6YGH54is6JmrLOWFs+mXreaJgOacieaWh+eroOeahOivhOiuug==
+
+date: 2009-6-18
+link: false
+categories: life
+---
+遭遇万恶的爬虫和网络灌水机，奇怪的是我的验证码无法挡住，每篇文章都被垃圾灌了几百给回复，我懒得改这套blog系统的代码，早上把DB里的垃圾回复都删掉了，同时将所有文章的回复都关闭了，望周知。
+
+如果您需要和我交流，可以通过右侧方式联系到我。

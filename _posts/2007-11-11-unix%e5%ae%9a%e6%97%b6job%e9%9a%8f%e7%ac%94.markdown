@@ -1,0 +1,12 @@
+--- 
+layout: post
+comments: true
+title: !binary |
+  dW5peOWumuaXtkpPQumaj+eslA==
+
+date: "2007-11-11"
+link: false
+categories: life
+---
+<p>0 0 * * * /home/iceskysl/itechtag/backup/automysqlbackup.sh<br />
+（每天凌晨0点执行automysqlbackup.sh进行数据备份）</p>

@@ -1,0 +1,11 @@
+--- 
+layout: post
+comments: true
+title: !binary |
+  UnVieeeJiOeahFlvdVR1YmXlupPmjqXlj6M=
+
+date: 2007-6-15
+link: false
+categories: life
+---
+YouTube的快速窜红，得到很多人的喜爱，加上被google收购以后，直觉告诉我们，肯定会推出类似google其他产品的API，果不其然，马上就推出了YouTube REST API，然后在rubyforge看到支持这个API的Ruby库，试了下，很简单好用，如下：1.先要安装% gem install youtubeBulk updating Gem source index for: http://gems.rubyforge.orgInstall required dependency xml-simple? [Yn]  ySuccessfully installed youtube-0.8.6Successfully installed xml-simple-1.0.11Installing ri documentation for youtube-0.8.6...Installing RDoc documentation for youtube-0.8.6...2.申请developer id到http://youtube.com/my_profile_dev申请一个developer id。3.使用如下展示的是他的一个例子，很简单哈～&lt;code&gt;  require 'rubygems'  require 'youtube'  youtube = YouTube::Client.new 'DEVELOPER_ID'  profile = youtube.profile('br0wnpunk')  puts &quot;age: &quot; + profile.age.to_s  favorites = youtube.favorite_videos('br0wnpunk')  puts &quot;number of favorite videos: &quot; + favorites.size.to_s  friends = youtube.friends('paolodona')  puts &quot;number of friends: &quot; + friends.size.to_s  puts &quot;friend name: &quot; + friends[0].user  videos = youtube.videos_by_tag('iron maiden')  puts &quot;number of videos by tag iron maiden: &quot; + videos.size.to_s  videos = youtube.videos_by_user('whytheluckystiff')  puts &quot;number of videos by why: &quot; + videos.size.to_s  puts &quot;title: &quot; + videos[0].title  videos = youtube.featured_videos  puts &quot;number of featured videos: &quot; + videos.size.to_s  puts &quot;title: &quot; + videos[0].title  puts &quot;url: &quot; + videos[0].url  puts &quot;embed url: &quot; + videos[0].embed_url  puts &quot;embed html: \n&quot; + videos[0].embed_html  details = youtube.video_details(videos[0])  puts &quot;detailed description: &quot; + details.description  puts &quot;thumbnail url: &quot; + details.thumbnail_url&lt;/code&gt;附件是这个lib包。更多信息请参考：RDOC ： http://youtube.shanesbrain.net/

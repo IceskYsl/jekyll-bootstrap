@@ -1,0 +1,46 @@
+--- 
+layout: post
+comments: true
+title: !binary |
+  5ZyoVWJ1bnR1Ny4xMOS4iuijhXJhci91bnJhcg==
+
+date: 2008-4-8
+link: false
+categories: life
+---
+<p>早在我开始使用Ubuntu的时候（7.04）就安装了linux下的rar，这几天在一台新的服务器上上安装的时候，竟然花了这么大的牛劲，呵呵。</p>
+<p><strong>&nbsp;先看下版本，如下：</strong></p>
+<p>1sters@IceskYsl:~/sources$ uname -a<br />
+Linux taojer 2.6.18-xen #1 SMP Fri Nov 2 06:14:54 UTC 2007 x86_64 GNU/Linux</p>
+<p><strong>然后使用&ldquo;sudo apt-get install rar&rdquo;，却发现出错，如下：</strong></p>
+<blockquote>
+<p>1sters@IceskYsl:~/sources$ sudo apt-get install rar<br />
+Password:<br />
+Reading package lists... Done<br />
+Building dependency tree... Done<br />
+Package rar is not available, but is referred to by another package.<br />
+This may mean that the package is missing, has been obsoleted, or<br />
+is only available from another source<br />
+E: Package rar has no installation candidate</p>
+</blockquote>
+<p>找不到相应的包，哦，因该是源的问题，查了下Google，很多人说是源的问题，于是乎，胡乱加了一大堆的源，试了下，貌似不好使，再查，找到相应的源，如下：</p>
+<p>
+<div class="codeText">
+<div class="codeHead">Shell代码</div>
+<ol start="1" class="dp-rb">
+    <li class="alt"><span><span>deb&nbsp;http://archive.ubuntu.com/ubuntu&nbsp;dapper&nbsp;universe&nbsp;multiverse&nbsp;&nbsp;</span></span></li>
+    <li class=""><span>deb-src&nbsp;http://archive.ubuntu.com/ubuntu&nbsp;dapper&nbsp;universe&nbsp;multiverse&nbsp;&nbsp;</span></li>
+</ol>
+</div>
+再使用：
+<div class="codeText">
+<div class="codeHead">Shell代码</div>
+<ol start="1" class="dp-rb">
+    <li class="alt"><span><span>sudo&nbsp;aptitude&nbsp;upgrade&nbsp;&nbsp;</span></span></li>
+    <li class=""><span>sudo&nbsp;aptitude&nbsp;install&nbsp;rar&nbsp;unrar&nbsp;&nbsp;</span></li>
+</ol>
+</div>
+</p>
+<p>然后就差不多OK了。</p>
+<p><strong>参考资料：</strong></p>
+<p>1、http://ubuntuforums.org/showthread.php?t=571440</p>

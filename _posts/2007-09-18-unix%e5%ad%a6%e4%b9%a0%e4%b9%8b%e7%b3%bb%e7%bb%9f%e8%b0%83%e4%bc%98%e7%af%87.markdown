@@ -1,0 +1,11 @@
+--- 
+layout: post
+comments: true
+title: !binary |
+  KlVOSVjlrabkuaDkuYvns7vnu5/osIPkvJjnr4c=
+
+date: 2007-9-18
+link: false
+categories: life
+---
+<p>本文用来总结UNIX系统参数的理解和调优实践、理论等，不断补充，不断更新，</p>

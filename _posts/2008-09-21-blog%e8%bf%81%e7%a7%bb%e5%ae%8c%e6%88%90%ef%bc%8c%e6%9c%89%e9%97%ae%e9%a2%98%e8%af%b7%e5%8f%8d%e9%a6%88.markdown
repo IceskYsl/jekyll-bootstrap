@@ -1,0 +1,17 @@
+--- 
+layout: post
+comments: true
+title: !binary |
+  YmxvZ+i/geenu+WujOaIkO+8jOaciemXrumimOivt+WPjemmiA==
+
+date: 2008-9-21
+link: false
+categories: life
+---
+经常来我BLog的同学可能发现了，最近老是发生 500错误，其原因是DH对资源限制的非常死，又有很多莫名其妙的进程占资源，非常不爽的说，今天下午务正好不想干啥，就在另外一个VPS上装了下PHP的环境，把这个blog迁移过来了。
+
+考虑到压力其实并不是很大，也为了能省点资源，于是使用的是PHP+nginx来跑PHP的，由于之前都是使用apache跑PHP的，今天还真绕了个小圈子，呵呵。。
+
+不过还好，也没多大会就把环境搭建好了，再把blog程序打包wget过去，再连原库做次备份，然后把备份的SQL导入到本地DB里面，再修改下连接DB的配置文件，非常省事。
+
+最后把域名指向改下，再nginx里面添加一个配置来服务这个系统。

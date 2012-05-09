@@ -1,0 +1,17 @@
+--- 
+layout: post
+comments: true
+title: !binary |
+  V2ViIDIuMCDvvIzmnInmlofljJbnmoTnvZHnq5nlgZrkuI3lpKc=
+
+date: "2007-12-28"
+link: false
+categories: life
+---
+<p>这个文章从一个层面上讲述了这个现象。<br />
+原文：http://china.digitalwall.com/scripts/display.asp?UID=403<br />
+摘要：</p>
+<p>为什么会造成这种市场局面？笔者以前说过，Web 2.0 的发展基础是 社会学，因此一个Web 2.0 网站的用户数多寡，完全看它占领了那个 社会阶层（或者文化阶层）而定，那个阶层直接决定了用户数的上限。</p>
+<p>因为Web 2.0 网站几乎是靠著人拉人发展起来。每个用户会拉动的人 都是他生活上熟悉的圈子，不管陌生人或熟人。当同一种阶层的人在 这个网站越积越多的时候，其他阶层的人也越难以加入到这里。</p>
+<p>等到网站有第一批用户，为了牢牢抓住他们，及利用他们带更多用户 进来，必须更加揣摩他们的心思甚或社交习惯。结果更深化了这样的 发展，更加走向某一种文化氛围或者社会阶层，再也无法回头。</p>
+<p>&nbsp;</p>

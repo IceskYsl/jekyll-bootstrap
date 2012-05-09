@@ -1,0 +1,24 @@
+--- 
+layout: post
+comments: true
+title: !binary |
+  bGludXjkuIvmipPlh7rlk6rkuKrov5vnqIvpgKDmiJDnmoRpb3dhaXTlvojp
+  q5jnmoTmlrnms5U=
+
+date: 2010-1-30
+link: false
+categories: life
+---
+抓哪个进程干坏事前要先停掉syslog
+/etc/init.d/rsyslog stop
+echo 1 > /proc/sys/vm/block_dump
+dmesg | egrep “READ|WRITE|dirtied” | egrep -o ‘([a-zA-Z]*)’ | sort | uniq -c | sort -rn | head
+1423 kjournald
+1075 pdflush
+209 indexer
+3 cronolog
+1 rnald
+1 mysqld
+不要忘记在抓完之后关掉block_dump和启动syslog
+echo 0 > /proc/sys/vm/block_dump
+/etc/init.d/rsyslog start
