@@ -1,0 +1,75 @@
+---
+layout: page
+title: Index
+header: Index
+tagline: Focus on Android,iPhone,Web,Business,Architecture,Agile,Technic and beyond…
+---
+{% include JB/setup %}
+
+ 
+<div>
+<div class="SL">
+{% for post in paginator.posts   %}
+{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+{% capture this_month %}{{ post.date | date: "%b" }}{% endcapture %}
+{% capture this_day %}{{ post.date | date: "%d" }}{% endcapture %}
+
+<!--Start Post-->
+<div class="post" style="margin-bottom: 40px;">
+	<div class="p-head">
+		<h2><a href="{{ BASE_PATH }}{{ post.url }}"> {{ post.title }}</a></h2>
+		<p class="p-cat">In: {{ post.categories | array_to_sentence_string }}</p>
+		<small class="p-time">
+			<strong class="day">{{this_day}}</strong>
+			<strong class="month">{{this_month}}</strong>
+			<strong class="year">{{this_year}}</strong>
+		</small>
+	</div>
+	<div class="p-con">
+	{{ post.content  |  truncatewords: 12 }}  
+	</div>
+</div>
+<!--End Post-->
+{% endfor %}
+ 
+
+ <!-- Pagination links -->
+<div id="pagination">
+<div class="pagenavi">
+<a href="/">第一页</a>
+{% if paginator.previous_page %}
+
+{% if paginator.previous_page == 1 %}
+	<a href="/" class="current"><<前一页</a>
+{% else %}
+	<a href="/page{{paginator.previous_page}}"><<前一页</a>
+{% endif %}
+
+{% else %}
+	<span><<前一页</span>
+{% endif %}
+	{% for count in (2..paginator.total_pages) limit:8 %}
+		{% if count == paginator.page %}
+			<span class="current-page">{{count}}</span>
+		{% else %}
+			<a href="/page{{count}}">{{count}}</a>
+		{% endif %}
+	{% endfor %}
+
+{% if paginator.next_page %}
+	<a href="/page{{paginator.next_page}}">后一页>></a>
+{% else %}
+	<span>后一页>></span>
+{% endif %}
+<a href="/page{{paginator.total_pages}}">最后一页</a>
+
+<span class="page_number">第{{paginator.page}}页/共{{paginator.total_pages}}页</span>
+
+</div>
+
+
+</div>
+
+</div></div>
+
+ 

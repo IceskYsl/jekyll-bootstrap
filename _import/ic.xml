@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>IceskYsl@1sters</title>
+	<atom:link href="http://www.iceskysl.com/?feed=rss2" rel="self" type="application/rss+xml" />
+	<link>http://www.iceskysl.com</link>
+	<description>Focus on Android,iPhone,Web,Business,Architecture,Agile,Technic and beyond…</description>
+	<lastBuildDate>Thu, 26 Apr 2012 01:41:19 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.3</generator>
+		<item>
+		<title>Google Drive试用初体验</title>
+		<link>http://www.iceskysl.com/?p=1699</link>
+		<comments>http://www.iceskysl.com/?p=1699#comments</comments>
+		<pubDate>Thu, 26 Apr 2012 00:32:13 +0000</pubDate>
+		<dc:creator>iceskysl</dc:creator>
+		<category><![CDATA[01. 视觉观察 | Observe]]></category>
+		<category><![CDATA[04. 无心呢喃 | Buzz]]></category>
+		<category><![CDATA[Drive]]></category>
+		<category><![CDATA[dropbox]]></category>
+		<category><![CDATA[evernote]]></category>
+
+		<guid isPermaLink="false">http://www.iceskysl.com/?p=1699</guid>
+		<description><![CDATA[已经不记得第一次听说google要出自己的云端存储，也不记得已经听说了几次这样的传闻了，这几天终于剪刀庐山真面目，也就是Google Drive，中文翻译为“google云端硬盘”。 毫不掩抑的说我的google重度使用者，几乎尝试过所有的google服务，其中gmail和gdoc应该最重度的用户了。另外，同步之前尝试过n多种，最终选择的是dropbox，而且是重度用户，虽然用着还不错，但是总希望google能出一个类似的服务，或者收购dropbox；所以当Google Drive发布后第一天就翻山越岭的过去瞧瞧，提交申请等待，今天早上收到激活通知，迫不及待的体验了一把，过程网上一大堆，不多说。 最纠结的自然还是被墙，虽然早就麻木，但每次都修改hosts，proxy还是让人心生厌烦，心想着何时我们才能真正的网络自由。 整个体验过程还算顺利，和dropbox真的差不多（skyDrive好像也差不多），逻辑基本一致，本地创建一个文件夹和云端保持一致，还可以同步到android等移动设备；但是Google Drive不同的是和google doc做了整合，会把线上的google doc全部同步下来，这个真心很好（其实我觉得他应该创建一个docs目录放文档～），我差不多好几千份文档，很快就同步完了（后来查了下，是因为他只同步了文档索引，每个文件才153 bytes，例如{“url”: “https://docs.google.com/Doc?docid=0AQSsdoBxI0TDZGhmODZrcjlfMzUsswaHZtaGI”, “resource_id”: “document:0AQSsdoBxI0TDZGhmODZrcjlfMzUsswaHZtaGI”}）；。更有价值的是装个google离线可以离线编辑，于是在想有没有可能谁出一个离线撰写google doc的软件，真心喜欢google doc的快捷键，真心不喜欢ms word和mac下的pages，希望有人能写一个google doc格式的文档撰写软件。 最后说一说Google Drive对dropbox的影响，个人觉得会有部分影响，尤其是国外网络自由的情况下，google的这个服务真心不错，而且加上gmail的帐号系统，在线编辑，共享和协作都很方便；但是影响不会致命，dropbox毕竟把这个服务做到了极致，一般做到极致的服务都是有前途的，或许哪一天就被哪个大佬诏安了，或者和我另外一个重度使用的服务evernote合并吧，哇卡～ 如果您对Google Drive感兴趣，推荐快捷键： http://support.google.com/docs/bin/answer.py?hl=en&#038;answer=1295935&#038;p=docslist_shortcuts]]></description>
+			<content:encoded><![CDATA[<p>已经不记得第一次听说google要出自己的云端存储，也不记得已经听说了几次这样的传闻了，这几天终于剪刀庐山真面目，也就是Google Drive，中文翻译为“google云端硬盘”。</p>
+<p>毫不掩抑的说我的google重度使用者，几乎尝试过所有的google服务，其中gmail和gdoc应该最重度的用户了。另外，同步之前尝试过n多种，最终选择的是dropbox，而且是重度用户，虽然用着还不错，但是总希望google能出一个类似的服务，或者收购dropbox；所以当Google Drive发布后第一天就翻山越岭的过去瞧瞧，提交申请等待，今天早上收到激活通知，迫不及待的体验了一把，过程网上一大堆，不多说。</p>
+<p>最纠结的自然还是被墙，虽然早就麻木，但每次都修改hosts，proxy还是让人心生厌烦，心想着何时我们才能真正的网络自由。</p>
+<p>整个体验过程还算顺利，和dropbox真的差不多（skyDrive好像也差不多），逻辑基本一致，本地创建一个文件夹和云端保持一致，还可以同步到android等移动设备；但是Google Drive不同的是和google doc做了整合，会把线上的google doc全部同步下来，这个真心很好（其实我觉得他应该创建一个docs目录放文档～），我差不多好几千份文档，很快就同步完了（后来查了下，是因为他只同步了文档索引，每个文件才153 bytes，例如{“url”: “https://docs.google.com/Doc?docid=0AQSsdoBxI0TDZGhmODZrcjlfMzUsswaHZtaGI”, “resource_id”: “document:0AQSsdoBxI0TDZGhmODZrcjlfMzUsswaHZtaGI”}）；。更有价值的是装个google离线可以离线编辑，于是在想有没有可能谁出一个离线撰写google doc的软件，真心喜欢google doc的快捷键，真心不喜欢ms word和mac下的pages，希望有人能写一个google doc格式的文档撰写软件。</p>
+<p>最后说一说Google Drive对dropbox的影响，个人觉得会有部分影响，尤其是国外网络自由的情况下，google的这个服务真心不错，而且加上gmail的帐号系统，在线编辑，共享和协作都很方便；但是影响不会致命，dropbox毕竟把这个服务做到了极致，一般做到极致的服务都是有前途的，或许哪一天就被哪个大佬诏安了，或者和我另外一个重度使用的服务evernote合并吧，哇卡～</p>
+<p>如果您对Google Drive感兴趣，推荐快捷键：</p>
+<p>http://support.google.com/docs/bin/answer.py?hl=en&#038;answer=1295935&#038;p=docslist_shortcuts</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.iceskysl.com/?feed=rss2&#038;p=1699</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>StackOverflow初探，模式和遴选机制最出色</title>
+		<link>http://www.iceskysl.com/?p=1696</link>
+		<comments>http://www.iceskysl.com/?p=1696#comments</comments>
+		<pubDate>Fri, 20 Apr 2012 14:58:43 +0000</pubDate>
+		<dc:creator>iceskysl</dc:creator>
+				<category><![CDATA[01. 视觉观察 | Observe]]></category>
+		<category><![CDATA[04. 无心呢喃 | Buzz]]></category>
+		<category><![CDATA[Experts-Exchange]]></category>
+		<category><![CDATA[Quora]]></category>
+		<category><![CDATA[StackOverflow]]></category>
+
+		<guid isPermaLink="false">http://www.iceskysl.com/?p=1696</guid>
+		<description><![CDATA[其实很早前就晓得StackOverflow和Experts-Exchange，当然还有Quora，做技术的应该都晓得StackOverflow，很多人应该是经常搜问题的时候会被带到StackOverflow，很多问题的满意答案应该都是在StackOverflow找到的。 Fenng曾写过一篇《为什么 Stack Overflow 会如此成功？》，对，很多人都会问为什么StackOverflow如此成功，而且还仅仅只是开始，以后会成长成啥样的还不不晓得，但是从大家全部的赞叹中还是说明StackOverflow是非常成功的。 StackOverflow给我最大印象的有两个： 1. 模式 系统自身是wiki＋digg/reddit＋blog＋forum的结合（下图），通过威望值(Reputation Point) 与徽章(Badge) 建立起信任评价体系，并且做到对参与者的有效激励。 &#160; 2. 遴选机制 stackoverflow的评价机制非常有意思，和百度贴吧这样的问答系统正好相反，他的最佳答案是由网友dig出来了，而且如果有人的回答不好，还会被修改掉或者直接删掉 &#160; 有人感叹说： 在国内是做不出这种网站的， 国人素质问题， 我使用stackoverflow深感其用， 关键是开放， 不并单单指奖励机制，我有好几次发的帖和答案（在stackoverflow上）不太好， 都被别人删掉了， 真刺激我的神经， 但忍了， 因为他的高质量就这样来的，但在国内出现这样的情况， 那个网站肯定被人骂得狗血淋头了，例如我经常看到有人骂javaeye的论坛不让发帖等等之类。 很有意思，值得研究一下～ &#160;]]></description>
+			<content:encoded><![CDATA[<p>其实很早前就晓得StackOverflow和Experts-Exchange，当然还有Quora，做技术的应该都晓得StackOverflow，很多人应该是经常搜问题的时候会被带到StackOverflow，很多问题的满意答案应该都是在StackOverflow找到的。</p>
+<p>Fenng曾写过一篇《<a href="http://www.dbanotes.net/startup/stack_overflow_success.html" target="_blank">为什么 Stack Overflow 会如此成功？</a>》，对，很多人都会问为什么StackOverflow如此成功，而且还仅仅只是开始，以后会成长成啥样的还不不晓得，但是从大家全部的赞叹中还是说明StackOverflow是非常成功的。</p>
+<p>StackOverflow给我最大印象的有两个：</p>
+<p><strong>1. 模式</strong></p>
+<p>系统自身是wiki＋digg/reddit＋blog＋forum的结合（下图），通过威望值(Reputation Point) 与徽章(Badge) 建立起信任评价体系，并且做到对参与者的有效激励。</p>
+<p>&nbsp;</p>
+<p><img class="alignnone" src="http://sstatic.net/stackoverflow/img/venn-diagram.png" alt="" width="440" height="431" /></p>
+<p><strong>2. 遴选机制</strong></p>
+<p>stackoverflow的评价机制非常有意思，和百度贴吧这样的问答系统正好相反，他的最佳答案是由网友dig出来了，而且如果有人的回答不好，还会被修改掉或者直接删掉</p>
+<p>&nbsp;</p>
+<p>有人感叹说：</p>
+<blockquote><p>在国内是做不出这种网站的， 国人素质问题， 我使用stackoverflow深感其用， 关键是开放， 不并单单指奖励机制，我有好几次发的帖和答案（在stackoverflow上）不太好， 都被别人删掉了， 真刺激我的神经， 但忍了， 因为他的高质量就这样来的，但在国内出现这样的情况， 那个网站肯定被人骂得狗血淋头了，例如我经常看到有人骂javaeye的论坛不让发帖等等之类。</p></blockquote>
+<p>很有意思，值得研究一下～</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.iceskysl.com/?feed=rss2&#038;p=1696</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>《Google Android开发入门与实战》第10次加印，真要改版了？</title>
+		<link>http://www.iceskysl.com/?p=1693</link>
+		<comments>http://www.iceskysl.com/?p=1693#comments</comments>
+		<pubDate>Fri, 13 Apr 2012 02:13:01 +0000</pubDate>
+		<dc:creator>iceskysl</dc:creator>
+				<category><![CDATA[04. 无心呢喃 | Buzz]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[开发入门与实战]]></category>
+
+		<guid isPermaLink="false">http://www.iceskysl.com/?p=1693</guid>
+		<description><![CDATA[早上收到出版社消息，我2009 年6月出版的《Google Android开发入门与实战》再次加印，已经印了10次了，总的销量差不多2万本了，还记得10年7月还写过一篇《纪念我的第一本Android技术书籍销量过万》～ 问了下出版社的编辑，说是人邮里出版的android书里销量最好的，颇感意外，看到很多人加入android阵营，也有点欣慰～ 这本书当时写的还是比较匆忙的，主要是针对android入门开发者的，很多地方也写的不仔细，比如代码有点多，代码没有很好的格式化，内容偏简单，系统化不够等等～ 书中的例子也有点比较老了，例如yobo的api已经不能使用了，豆瓣的api也有了更新等等～每次读者在社区问书上一些问题的时候，我都觉得蛮愧疚的，毕竟内容比较老，会误导一些读者～ 这本书是国内第一本android的技术的书，当时的android sdk还是1.5版，上市快3年了，内容相对偏老的，出版社一再催我能更新到最新的sdk版本，再把之前用户反馈比较多的问题完善下～是不是真的需要抽点时间来出第二版了呢？ &#160; &#160; &#160;]]></description>
+			<content:encoded><![CDATA[<p>早上收到出版社消息，我2009 年6月出版的《<strong>Google Android开发入门与实战</strong>》再次加印，已经印了10次了，总的销量差不多2万本了，还记得10年7月还写过一篇《<a href="http://www.iceskysl.com/?p=751" target="_blank">纪念我的第一本Android技术书籍销量过万</a>》～</p>
+<p>问了下出版社的编辑，说是人邮里出版的android书里销量最好的，颇感意外，看到很多人加入android阵营，也有点欣慰～</p>
+<p>这本书当时写的还是比较匆忙的，主要是针对android入门开发者的，很多地方也写的不仔细，比如代码有点多，代码没有很好的格式化，内容偏简单，系统化不够等等～ 书中的例子也有点比较老了，例如yobo的api已经不能使用了，豆瓣的api也有了更新等等～每次读者在社区问书上一些问题的时候，我都觉得蛮愧疚的，毕竟内容比较老，会误导一些读者～</p>
+<p>这本书是国内第一本android的技术的书，当时的android sdk还是1.5版，上市快3年了，内容相对偏老的，出版社一再催我能更新到最新的sdk版本，再把之前用户反馈比较多的问题完善下～是不是真的需要抽点时间来出第二版了呢？</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.iceskysl.com/?feed=rss2&#038;p=1693</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>关于Markdown和Mou</title>
+		<link>http://www.iceskysl.com/?p=1690</link>
+		<comments>http://www.iceskysl.com/?p=1690#comments</comments>
+		<pubDate>Fri, 06 Apr 2012 23:26:48 +0000</pubDate>
+		<dc:creator>iceskysl</dc:creator>
+				<category><![CDATA[04. 无心呢喃 | Buzz]]></category>
+		<category><![CDATA[Mac & *UNIX]]></category>
+
+		<guid isPermaLink="false">http://www.iceskysl.com/?p=1690</guid>
+		<description><![CDATA[开年的时候写过一篇文章《排斥WYSIWYG编辑器》，其中说到： 最不习惯的就是是文章的格式，一堆html代码，技术的人好像都有洁癖，我现在写的都是在html模式下至今写的，非常排斥WYSIWYG编辑器～一堆没用的格式代码～很不干净～ 其实比较成熟的标记语言还是有不少的，比如wiki format，又比如今天要讲的Markdown，甚至还有国内bbs喜欢用的bbcode都还是不错的标记语言，这里主要讲的是Markdown和Mou。 http://apple4.us/上有篇文章写的不错《为什么作家应该用 Markdown 保存自己的文稿》，其中说了为什么作家需要用Markdown保存自己的文稿，其实对技术人员也一样有用，大家可以仔细看看～同时被介绍的还有Mou（Mou The missing Markdown editor for web developers）。 Mou真是个不错的东西，让不会编程的人也很快接收其用法，当你已经熟练掌握其语法后，其实也可以不用Mou，比如技术人员一般直接在textmate里写或者直接写都还蛮不错的。 大概汇总下用 Markdown 有如下好处： 干净，只写你需要的文字和标记，没一堆乱七八糟的html 简单，真简单，就那么些标记，不需要10分钟你就学会了； 纯文本，占的空间小，打开块，记得空doc还有11k； 兼容性好，就是文本，文本编辑器都可以打开编辑，最不喜欢的就是.doc或者.gage，那个兼容性呀，简直是噩梦； 显示可控，无论是转html，还是又mou这样的工具，还是直接处理，都非常简便； 其他 技术人员如果能坚持写技术blog都能用Markdown保存下来，其实是一个不错的宣传，wordpress会不会又被我废弃，直接写个轻量级的日志引擎，难说～ &#160; 参考： http://kramdown.rubyforge.org/documentation.html https://github.com/tanoku/redcarpet http://zh.wikipedia.org/wiki/Markdown]]></description>
+			<content:encoded><![CDATA[<p>开年的时候写过一篇文章《<a href="http://www.iceskysl.com/?p=1626" target="_blank">排斥WYSIWYG编辑器</a>》，其中说到：</p>
+<blockquote><p>最不习惯的就是是文章的格式，一堆html代码，技术的人好像都有洁癖，我现在写的都是在html模式下至今写的，非常排斥WYSIWYG编辑器～一堆没用的格式代码～很不干净～</p></blockquote>
+<p>其实比较成熟的<strong>标记语言</strong>还是有不少的，比如wiki format，又比如今天要讲的Markdown，甚至还有国内bbs喜欢用的bbcode都还是不错的<strong>标记语言</strong>，这里主要讲的是Markdown和Mou。</p>
+<p>http://apple4.us/上有篇文章写的不错《<a href="http://apple4.us/2012/02/why-writers-should-use-markdown.html" target="_blank">为什么作家应该用 Markdown 保存自己的文稿</a>》，其中说了为什么作家需要用Markdown保存自己的文稿，其实对技术人员也一样有用，大家可以仔细看看～同时被介绍的还有<a href="http://mouapp.com/" target="_blank">Mou</a>（Mou The missing Markdown editor for web developers）。</p>
+<p><a href="http://mouapp.com/" target="_blank">Mou</a>真是个不错的东西，让不会编程的人也很快接收其用法，当你已经熟练掌握其语法后，其实也可以不用<a href="http://mouapp.com/" target="_blank">Mou</a>，比如技术人员一般直接在textmate里写或者直接写都还蛮不错的。</p>
+<p>大概汇总下用 Markdown 有如下好处：</p>
+<ol>
+<li>干净，只写你需要的文字和标记，没一堆乱七八糟的html</li>
+<li>简单，真简单，就那么些标记，不需要10分钟你就学会了；</li>
+<li>纯文本，占的空间小，打开块，记得空doc还有11k；</li>
+<li>兼容性好，就是文本，文本编辑器都可以打开编辑，最不喜欢的就是.doc或者.gage，那个兼容性呀，简直是噩梦；</li>
+<li>显示可控，无论是转html，还是又mou这样的工具，还是直接处理，都非常简便；</li>
+<li>其他</li>
+</ol>
+<p>技术人员如果能坚持写技术blog都能用Markdown保存下来，其实是一个不错的宣传，wordpress会不会又被我废弃，直接写个轻量级的日志引擎，难说～</p>
+<p>&nbsp;</p>
+<p>参考：</p>
+<p>http://kramdown.rubyforge.org/documentation.html</p>
+<p>https://github.com/tanoku/redcarpet</p>
+<p>http://zh.wikipedia.org/wiki/Markdown</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.iceskysl.com/?feed=rss2&#038;p=1690</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Git 命令行自动补全</title>
+		<link>http://www.iceskysl.com/?p=1688</link>
+		<comments>http://www.iceskysl.com/?p=1688#comments</comments>
+		<pubDate>Fri, 06 Apr 2012 22:57:40 +0000</pubDate>
+		<dc:creator>iceskysl</dc:creator>
+				<category><![CDATA[Mac & *UNIX]]></category>
+		<category><![CDATA[completion]]></category>
+		<category><![CDATA[git]]></category>
+
+		<guid isPermaLink="false">http://www.iceskysl.com/?p=1688</guid>
+		<description><![CDATA[在Pro Git上看到的技巧，git的源代码包里的contrib/completion目录下有个git-completion.bash，把这个文件保存到~/.git-completion.bash，然后在.bashrc或.bash_profile中加入一行 source ~/.git-completion.bash 这样就能在bash下用tab自动补全git命令、branch等内容了。也可以为系统上所有用户都设置默认使用此脚本。Mac 上将此脚本复制到/opt/local/etc/bash_completion.d 目录中，Linux 上则复制到 /etc/bash_completion.d/ 目录中。这两处目录中的脚本，都会在 Bash 启动时自动加载。 在输入 Git 命令的时候可以敲两次跳格键（Tab），就会看到列出所有匹配的可用命令建议： $ git co&#60;tab&#62;&#60;tab&#62; commit config 此例中，键入 git co 然后连按两次 Tab 键，会看到两个相关的建议（命令） commit 和 config。继而输入 m&#60;tab&#62; 会自动完成 git commit 命令的输入。 命令的选项也可以用这种方式自动完成，其实这种情况更实用些。比如运行 git log 的时候忘了相关选项的名字，可以输入开头的几个字母，然后敲 Tab 键看看有哪些匹配的： $ git log --s&#60;tab&#62; --shortstat --since= --src-prefix= --stat --summary 这个技巧不错吧，可以节省很多输入和查阅文档的时间。]]></description>
+			<content:encoded><![CDATA[<p>在<a href="http://progit.org/book/ch2-7.html" target="_blank">Pro Git</a>上看到的技巧，git的源代码包里的contrib/completion目录下有个<a href="http://repo.or.cz/w/git.git/blob_plain/HEAD:/contrib/completion/git-completion.bash" target="_blank">git-completion.bash</a>，把这个文件保存到~/.git-completion.bash，然后在.bashrc或.bash_profile中加入一行</p>
+<blockquote><p>source ~/.git-completion.bash</p></blockquote>
+<p>这样就能在bash下用tab自动补全git命令、branch等内容了。也可以为系统上所有用户都设置默认使用此脚本。Mac 上将此脚本复制到<code>/opt/local/etc/bash_completion.d</code> 目录中，Linux 上则复制到 <code>/etc/bash_completion.d/</code> 目录中。这两处目录中的脚本，都会在 Bash 启动时自动加载。</p>
+<p>在输入 Git 命令的时候可以敲两次跳格键（Tab），就会看到列出所有匹配的可用命令建议：</p>
+<pre><code>$ git co&lt;tab&gt;&lt;tab&gt; commit config</code></pre>
+<p>此例中，键入 git co 然后连按两次 Tab 键，会看到两个相关的建议（命令） commit 和 config。继而输入 <code>m&lt;tab&gt;</code> 会自动完成 <code>git commit</code> 命令的输入。</p>
+<p>命令的选项也可以用这种方式自动完成，其实这种情况更实用些。比如运行 <code>git log</code> 的时候忘了相关选项的名字，可以输入开头的几个字母，然后敲 Tab 键看看有哪些匹配的：</p>
+<pre><code>$ git log --s&lt;tab&gt; --shortstat --since= --src-prefix= --stat --summary</code></pre>
+<p>这个技巧不错吧，可以节省很多输入和查阅文档的时间。</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.iceskysl.com/?feed=rss2&#038;p=1688</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>第一台单反 Nikon D90</title>
+		<link>http://www.iceskysl.com/?p=1684</link>
+		<comments>http://www.iceskysl.com/?p=1684#comments</comments>
+		<pubDate>Fri, 06 Apr 2012 16:38:20 +0000</pubDate>
+		<dc:creator>iceskysl</dc:creator>
+				<category><![CDATA[04. 无心呢喃 | Buzz]]></category>
+		<category><![CDATA[D90]]></category>
+		<category><![CDATA[Nikon]]></category>
+
+		<guid isPermaLink="false">http://www.iceskysl.com/?p=1684</guid>
+		<description><![CDATA[2012刚开始的时候写过《2011计划年度总结回顾,2012年预期》中曾经写到“1. 系统学习摄影，有一台单反；”，时间走到4月份，终于入手了一台单反：Nikon D90。 因为是第一台，所以一点经验没有，之前连傻瓜相机用的都少，只偶尔用iphone拍点图像，所以对快门，光圈，曝光，景深，白平衡记本上是没概念的，之前查过一次资料，在Nikon D90，Canon 600D，Nikon D7000等几个之间有过选择，之前在微博上问过达人们，C家和N家都有一大群的粉丝，每个人都能说出一大堆的理由～ 搁置了一段时间后，眼看着春天来了，外面光秃秃的树杈也渐渐的有了一点活力，想着也需要给自己找个借口出去走走了，于是再次选了单反，几经比较后，还是选择了Nikon D90。理由不多说，中间也考虑过Canon 600D，后来应该还是看中Nikon的专业性，D90的高性价比吧～ 机器手感不错，做工精良，虽然是08年的机器，但还是很气派的，晚上抱着D90说明书，又把前面买的《跟我学摄影》翻出来看了看，还真学了不少之前觉得很复杂的知识，再次体会到，如果你想学什么，就投入进去，尝试着喜欢上，然后你就应该能更有兴趣的学习了。 第一台单反，完成《2011计划年度总结回顾,2012年预期》中的一个目标，此文仅为纪录。接下去会花下时间多多练习，争取能拍出一些不错的作品～]]></description>
+			<content:encoded><![CDATA[<p>2012刚开始的时候写过《<a href="http://www.iceskysl.com/?p=1117" target="_blank">2011计划年度总结回顾,2012年预期</a>》中曾经写到“1. 系统学习摄影，有一台单反；”，时间走到4月份，终于入手了一台单反：Nikon D90。</p>
+<p>因为是第一台，所以一点经验没有，之前连傻瓜相机用的都少，只偶尔用iphone拍点图像，所以对快门，光圈，曝光，景深，白平衡记本上是没概念的，之前查过一次资料，在Nikon D90，Canon 600D，Nikon D7000等几个之间有过选择，之前在微博上问过达人们，C家和N家都有一大群的粉丝，每个人都能说出一大堆的理由～</p>
+<p>搁置了一段时间后，眼看着春天来了，外面光秃秃的树杈也渐渐的有了一点活力，想着也需要给自己找个借口出去走走了，于是再次选了单反，几经比较后，还是选择了Nikon D90。理由不多说，中间也考虑过Canon 600D，后来应该还是看中Nikon的专业性，D90的高性价比吧～</p>
+<p>机器手感不错，做工精良，虽然是08年的机器，但还是很气派的，晚上抱着D90说明书，又把前面买的《跟我学摄影》翻出来看了看，还真学了不少之前觉得很复杂的知识，再次体会到，如果你想学什么，就投入进去，尝试着喜欢上，然后你就应该能更有兴趣的学习了。</p>
+<p>第一台单反，完成《<a href="http://www.iceskysl.com/?p=1117" target="_blank">2011计划年度总结回顾,2012年预期</a>》中的一个目标，此文仅为纪录。接下去会花下时间多多练习，争取能拍出一些不错的作品～</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.iceskysl.com/?feed=rss2&#038;p=1684</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>说说我招聘android技术人员的思路</title>
+		<link>http://www.iceskysl.com/?p=1679</link>
+		<comments>http://www.iceskysl.com/?p=1679#comments</comments>
+		<pubDate>Fri, 16 Mar 2012 13:42:16 +0000</pubDate>
+		<dc:creator>iceskysl</dc:creator>
+				<category><![CDATA[04. 无心呢喃 | Buzz]]></category>
+		<category><![CDATA[Android & Java]]></category>
+
+		<guid isPermaLink="false">http://www.iceskysl.com/?p=1679</guid>
+		<description><![CDATA[事情源于在eoe android社区看到一个同学写了《android面试全跟踪——看到天涯失业7个月，有感而发写下此文》，文章中详细纪录了自己寻找android工作的过程，其中个中辛酸，我想只有体验过这个过程的人才有体会；我把那个帖子转到weibo上，很多人也反馈说看着心酸，我觉得我可以写点东西分享下企业怎么看android技术人员的招聘。 有些人可能对我多少有些了解，应该算国内第一批开始搞android相关的人，09年创办的android开发社区（eoeandroid.com）现在也是国内android开发人员最活跃的社区，我写过一些代码，也写过一些技术的文章，也做过android应用，也见过很多android的技术，也给公司（eoe）招了不少android技术人员，也给不少朋友奇特推荐过android技术的人，我下面会分享我对android技术人员招聘的一些看法。 1. 首先看为人：品性很重要 或许是因为我们是创业公司，会严格选择每一个进来的人，特别是技术的人。技术很重要，但是在我这边不是第一位的，人品和性格是第一的，创业公司唯一不变的就是变化，如果人品不过关的人肯定待不住，如果性格合不来的人肯定待不久。有人说这个很虚，见一面怎么可能看出品性，其实不难，一举一动，言语措辞都很简单就可以看出一个人的内在（因为技术的人为人真的很简单），所以，如果你去面熟，表现真实的自己，对公司，对个人都是有好处的，合得来就是合得来，合不来强求也没用，这本是个双向选择的事情，不存在谁强势谁弱势。积极，主动，自信，阳光是比较好的品格～ 2. 接着看技术：基本功需要有体系，够扎实，思维要跳跃 如果来eoe面试过的人应该知道，我们面android有一套笔试题，但是java的，很多人不理解可能会问我来面android的为啥让我做java的题？其实很简单，java是基础，我们的笔试题会涉及到基础的，算法的，开放性的试题，我们需要全面的了解一个人。每个题目都很重要，所以，如果去面试，如果对方是精心设计的题，请认真一点回答，记住认真不是死板，答题看的是基础和思维，细节无所谓，因为有真正干活的时候有google，有api～ 3. 然后看经验：经验很重要，你必须对你做过的项目了如指掌 做完题目，我们一般就正式面试了，会问问笔试题目上你的感觉和具体一个问题的思路，然后才开始问之前的经验，我们的要求是必须真正做过项目，如果没项目，应用也行，其实需要的就是一个关键点：你真正操作过一个应用，对你做过的模块必须了如指掌，我们不会问太多项目，让你一个最熟悉的或者最喜欢的项目，问的很细节，细节到你证明这个项目自己之前是用心做的，或者证明你在这个项目就是个打酱油的。 然后会问点和android相关的东西，一般容易的，中等的和比较刁钻的问题都会问一些，刁钻的比如会问你现场保护的机制，方式，为什么要现场保护等等问题，如果你是个做技术爱思考的人，这些问题应该不难，如果你虽然做过1－2年android，但是每个方面都很泛泛，那你肯定会被问的傻傻的。 最后会问一些开放性的问题，都是很随机的题目，比如桌子上的一个杯子等等都可能会被问～～这个地方主要看整体的思维和分析问题的能力。 4. 做决定：合适还是不合适，或者留题目，做个小测试 如此过程，我们基本上就能判断一个人是否符合我们要求，如果不满足，我们基本会很直接告诉原因是什么，哪个地方我们觉得不合适，你以后应该注意什么？如果我们觉得满足预期，可能就收了；如果我们拿不准，但是觉得你潜力很好，可能会留个题目，做个小东西，不会很难，做的时候请注意自己的编码风格，整体项目结构等等，这些是关键因素～ 如上过程，就是我在招android技术人员的一些思路和过程，我们是创业公司，相对看的更全面的能力，但是我个人觉得企业的思维或许都差不多，如果你要找android相关的工作，请参考～ 另外，android开发社区 里有很多企业招聘android技术人员，大家可以多关注，希望大家能找到自己满意android工作～记得经常来android开发社区活动～ 再顺便提一下，我们（eoe）长期招合适的android技术，如果你有兴趣，可以联系我～]]></description>
+			<content:encoded><![CDATA[<p>事情源于在eoe android社区看到一个同学写了《<a href="http://www.eoeandroid.com/thread-160381-1-1.html" target="_blank">android面试全跟踪——看到天涯失业7个月，有感而发写下此文</a>》，文章中详细纪录了自己寻找android工作的过程，其中个中辛酸，我想只有体验过这个过程的人才有体会；我把那个帖子转到weibo上，很多人也反馈说看着心酸，我觉得我可以写点东西分享下企业怎么看android技术人员的招聘。</p>
+<p>有些人可能对我多少有些了解，应该算国内第一批开始搞android相关的人，09年创办的<a href="http://www.eoeandroid.com/forum.php" target="_blank">android开发社区</a>（eoeandroid.com）现在也是国内android开发人员最活跃的社区，我写过一些代码，也写过一些技术的文章，也做过android应用，也见过很多android的技术，也给公司（eoe）招了不少android技术人员，也给不少朋友奇特推荐过<a href="http://www.eoeandroid.com/forum.php" target="_blank">android</a>技术的人，我下面会分享我对android技术人员招聘的一些看法。</p>
+<p><strong>1. 首先看为人：品性很重要</strong></p>
+<p>或许是因为我们是创业公司，会严格选择每一个进来的人，特别是技术的人。技术很重要，但是在我这边不是第一位的，人品和性格是第一的，创业公司唯一不变的就是变化，如果人品不过关的人肯定待不住，如果性格合不来的人肯定待不久。有人说这个很虚，见一面怎么可能看出品性，其实不难，一举一动，言语措辞都很简单就可以看出一个人的内在（因为技术的人为人真的很简单），所以，如果你去面熟，表现真实的自己，对公司，对个人都是有好处的，合得来就是合得来，合不来强求也没用，这本是个双向选择的事情，不存在谁强势谁弱势。积极，主动，自信，阳光是比较好的品格～</p>
+<p><strong>2. 接着看技术：基本功需要有体系，够扎实，思维要跳跃</strong></p>
+<p>如果来eoe面试过的人应该知道，我们面android有一套笔试题，但是java的，很多人不理解可能会问我来面android的为啥让我做java的题？其实很简单，java是基础，我们的笔试题会涉及到基础的，算法的，开放性的试题，我们需要全面的了解一个人。每个题目都很重要，所以，如果去面试，如果对方是精心设计的题，请认真一点回答，记住认真不是死板，答题看的是基础和思维，细节无所谓，因为有真正干活的时候有google，有api～</p>
+<p><strong>3. 然后看经验：经验很重要，你必须对你做过的项目了如指掌</strong></p>
+<p>做完题目，我们一般就正式面试了，会问问笔试题目上你的感觉和具体一个问题的思路，然后才开始问之前的经验，我们的要求是必须真正做过项目，如果没项目，应用也行，其实需要的就是一个关键点：你真正操作过一个应用，对你做过的模块必须了如指掌，我们不会问太多项目，让你一个最熟悉的或者最喜欢的项目，问的很细节，细节到你证明这个项目自己之前是用心做的，或者证明你在这个项目就是个打酱油的。</p>
+<p>然后会问点和android相关的东西，一般容易的，中等的和比较刁钻的问题都会问一些，刁钻的比如会问你现场保护的机制，方式，为什么要现场保护等等问题，如果你是个做技术爱思考的人，这些问题应该不难，如果你虽然做过1－2年android，但是每个方面都很泛泛，那你肯定会被问的傻傻的。</p>
+<p>最后会问一些开放性的问题，都是很随机的题目，比如桌子上的一个杯子等等都可能会被问～～这个地方主要看整体的思维和分析问题的能力。</p>
+<p><strong>4. 做决定：合适还是不合适，或者留题目，做个小测试</strong></p>
+<p>如此过程，我们基本上就能判断一个人是否符合我们要求，如果不满足，我们基本会很直接告诉原因是什么，哪个地方我们觉得不合适，你以后应该注意什么？如果我们觉得满足预期，可能就收了；如果我们拿不准，但是觉得你潜力很好，可能会留个题目，做个小东西，不会很难，做的时候请注意自己的编码风格，整体项目结构等等，这些是关键因素～</p>
+<p>如上过程，就是我在招android技术人员的一些思路和过程，我们是创业公司，相对看的更全面的能力，但是我个人觉得企业的思维或许都差不多，如果你要找android相关的工作，请参考～</p>
+<p>另外，<a href="http://www.eoeandroid.com/forum.php" target="_blank">android开发社区</a> 里有很多企业招聘android技术人员，大家可以多关注，希望大家能找到自己满意android工作～记得经常来<a href="http://www.eoeandroid.com/forum.php" target="_blank">android开发社区</a>活动～</p>
+<p>再顺便提一下，我们（eoe）长期招合适的android技术，如果你有兴趣，可以联系我～</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.iceskysl.com/?feed=rss2&#038;p=1679</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>升级mac到10.7.3，体验mac Messages</title>
+		<link>http://www.iceskysl.com/?p=1674</link>
+		<comments>http://www.iceskysl.com/?p=1674#comments</comments>
+		<pubDate>Fri, 02 Mar 2012 14:10:51 +0000</pubDate>
+		<dc:creator>iceskysl</dc:creator>
+				<category><![CDATA[Mac & *UNIX]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[Messages]]></category>
+
+		<guid isPermaLink="false">http://www.iceskysl.com/?p=1674</guid>
+		<description><![CDATA[很早前就注意到mac官网放出了mac版得messages beta（http://www.apple.com/macosx/mountain-lion/messages-beta/），当时下载后安装得时候提示需要10.7.3，由于本机还是10.7.2版无法体验～ 今天下班得时候发现提示10.7.3下载完成可以安装了（mac好像把更新版本放在后台进行，下载完直接提示用户安装了），迫不及待更新，看到如下 装完后就开始装上次下载得messages beta，下载完安装（需要重启，好像第一次遇到mac安装完软件需要重启），而后就可以用自己得apple id来登陆了，登陆完就可以给其他联系人发message信息啦～ 但是也发现一个问题，手机端收到得信息是按字分割得，还不晓得是什么原因，是中文得原因？]]></description>
+			<content:encoded><![CDATA[<p>很早前就注意到mac官网放出了mac版得messages beta（<a href="http://www.apple.com/macosx/mountain-lion/messages-beta/">http://www.apple.com/macosx/mountain-lion/messages-beta/</a>），当时下载后安装得时候提示需要10.7.3，由于本机还是10.7.2版无法体验～</p>
+<p>今天下班得时候发现提示10.7.3下载完成可以安装了（mac好像把更新版本放在后台进行，下载完直接提示用户安装了），迫不及待更新，看到如下</p>
+<p><a href="http://www.iceskysl.com/wp-content/uploads/2012/03/Screen-Shot-2012-03-02-at-9.05.06-PM.png"><img class="alignnone size-medium wp-image-1675" title="Screen Shot 2012-03-02 at 9.05.06 PM" src="http://www.iceskysl.com/wp-content/uploads/2012/03/Screen-Shot-2012-03-02-at-9.05.06-PM-250x300.png" alt="" width="250" height="300" /></a></p>
+<p>装完后就开始装上次下载得messages beta，下载完安装（需要重启，好像第一次遇到mac安装完软件需要重启），而后就可以用自己得apple id来登陆了，登陆完就可以给其他联系人发message信息啦～</p>
+<p><a href="http://www.iceskysl.com/wp-content/uploads/2012/03/Screen-Shot-2012-03-02-at-10.08.21-PM.png"><img class="alignnone size-medium wp-image-1676" title="Screen Shot 2012-03-02 at 10.08.21 PM" src="http://www.iceskysl.com/wp-content/uploads/2012/03/Screen-Shot-2012-03-02-at-10.08.21-PM-300x199.png" alt="" width="300" height="199" /></a></p>
+<p>但是也发现一个问题，手机端收到得信息是按字分割得，还不晓得是什么原因，是中文得原因？</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.iceskysl.com/?feed=rss2&#038;p=1674</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>在rails中mysql读写分离的方案</title>
+		<link>http://www.iceskysl.com/?p=1669</link>
+		<comments>http://www.iceskysl.com/?p=1669#comments</comments>
+		<pubDate>Sun, 26 Feb 2012 08:22:43 +0000</pubDate>
+		<dc:creator>iceskysl</dc:creator>
+				<category><![CDATA[Architecture]]></category>
+		<category><![CDATA[Ruby & Rails]]></category>
+		<category><![CDATA[db-charmer]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[Octopus]]></category>
+		<category><![CDATA[rails]]></category>
+		<category><![CDATA[Sharding]]></category>
+
+		<guid isPermaLink="false">http://www.iceskysl.com/?p=1669</guid>
+		<description><![CDATA[手上几个项目访问的压力越来越大，用合用的mysql转移到单独的msql服务器了，但还是压力还是很大，偶尔还会遇到lock问题，是想着需要做一下mysql的读写分离的方案，找了一些资料，汇总如下： 之前晓得有两个方案可以使用 1. 用类似use_db这样的插件，实现针对model的读写分离（其实这个不是真正意义上的读写分离，但是可以凑合用） 2. 用类似master_slave_adapter和masochism插件实现真正意思上的读写分离，配置稍微麻烦点，有的可能还需要一些hard code～ 也在ruby_china发了帖子和大家讨论了下（http://ruby-china.org/topics/1397），在大家的回复了，看到 @kevinxu 提到了db-charmer (https://github.com/kovyrin/db-charmer)，也看到 @ShiningRay 提到了data_fabric，还有 @bony 提到了可以自己来拦截“拦截一下activerecord的方法，在读操作和写操作时重新设置connection”。 于是就去多查下资料，看到有如下ruby-toolbox上有个Active_Record_Sharding的页面（https://www.ruby-toolbox.com/categories/Active_Record_Sharding ），里面还提到了了Octopus这个gem（https://github.com/tchandy/octopus），于是仔细看了一下Db-charmer这个还是比较完善的，按照其描述是这样的：DbCharmer is a Rails plugin (and gem) that could be used to manage AR model connections, implement master/slave query schemes, sharding and other magic features many high-scale applications need. 然后找到几篇不错的介绍文章 DB Charmer – ActiveRecord Connection Magic Plugin http://kovyrin.net/2009/11/03/db-charmer-activerecord-connection-magic-plugin/ DbCharmer [...]]]></description>
+			<content:encoded><![CDATA[<p>手上几个项目访问的压力越来越大，用合用的mysql转移到单独的msql服务器了，但还是压力还是很大，偶尔还会遇到lock问题，是想着需要做一下mysql的读写分离的方案，找了一些资料，汇总如下：</p>
+<p>之前晓得有两个方案可以使用<br />
+1. 用类似<strong>use_db</strong>这样的插件，实现针对model的读写分离（其实这个不是真正意义上的读写分离，但是可以凑合用）<br />
+2. 用类似<strong>master_slave_adapter</strong>和<strong>masochism</strong>插件实现真正意思上的读写分离，配置稍微麻烦点，有的可能还需要一些hard code～</p>
+<p>也在ruby_china发了帖子和大家讨论了下（<a href="http://ruby-china.org/topics/1397">http://ruby-china.org/topics/1397</a>），在大家的回复了，看到 @kevinxu 提到了<strong>db-charmer</strong> (<a href="https://github.com/kovyrin/db-charmer">https://github.com/kovyrin/db-charmer</a>)，也看到 @ShiningRay 提到了<strong>data_fabric</strong>，还有 @bony 提到了可以自己来拦截“拦截一下activerecord的方法，在读操作和写操作时重新设置connection”。</p>
+<p>于是就去多查下资料，看到有如下ruby-toolbox上有个Active_Record_Sharding的页面（<a href="https://www.ruby-toolbox.com/categories/Active_Record_Sharding">https://www.ruby-toolbox.com/categories/Active_Record_Sharding</a> ），里面还提到了了<strong>Octopus</strong>这个gem（<a href="https://github.com/tchandy/octopus">https://github.com/tchandy/octopus</a>），于是仔细看了一下Db-charmer这个还是比较完善的，按照其描述是这样的：DbCharmer is a Rails plugin (and gem) that could be used to manage AR model connections, implement master/slave query schemes, sharding and other magic features many high-scale applications need. 然后找到几篇不错的介绍文章<br />
+<strong>DB Charmer – ActiveRecord Connection Magic Plugin</strong><br />
+<a href="http://kovyrin.net/2009/11/03/db-charmer-activerecord-connection-magic-plugin/"> http://kovyrin.net/2009/11/03/db-charmer-activerecord-connection-magic-plugin/</a></p>
+<p><strong>DbCharmer 1.7.0 Release: Rails 3.0 Support and Forced Slave Reads</strong><br />
+<a href="http://kovyrin.net/2011/09/01/dbcharmer-1-7-0/"> http://kovyrin.net/2011/09/01/dbcharmer-1-7-0/</a></p>
+<p><strong>db-charmer github</strong><br />
+<a href="https://github.com/kovyrin/db-charmer"> https://github.com/kovyrin/db-charmer</a></p>
+<p><strong>db-charmer homepage</strong><br />
+<a href="http://kovyrin.github.com/db-charmer/index.html"> http://kovyrin.github.com/db-charmer/index.html</a></p>
+<p>看到几经完善，现在也已经支持rails3了，没仔细测试，也还没来得及看源码，有空的可以看后分析下，我主要考虑稳定性和扩展性～</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.iceskysl.com/?feed=rss2&#038;p=1669</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>解决用ruby生成大xml文件的性能问题</title>
+		<link>http://www.iceskysl.com/?p=1662</link>
+		<comments>http://www.iceskysl.com/?p=1662#comments</comments>
+		<pubDate>Fri, 24 Feb 2012 11:28:51 +0000</pubDate>
+		<dc:creator>iceskysl</dc:creator>
+				<category><![CDATA[Ruby & Rails]]></category>
+
+		<guid isPermaLink="false">http://www.iceskysl.com/?p=1662</guid>
+		<description><![CDATA[近日遇到一个需求是定期生成一个很大的xml文件，可能会10多w个item，过程中需要查询数据库，需要一些运算，遇到了性能问题，开始使用nokogiri，但是很慢很慢，大概的代码如下： require 'rubygems' require 'nokogiri' a = Time.now builder = Nokogiri::XML::Builder.new do &#124;xml&#124; xml.root { (1..500000).each do &#124;k&#124; xml.products { xml.widget { xml.id_ k xml.name "Awesome iceskysl widget" } } end } end o = File.new("test_noko.xml", "w") o.write(builder.to_xml) o.close puts (Time.now-a).to_s 这个代码有2个主要的问题： 1. 慢 2. 耗内存 于是我们有两个解决方案，分别是： 1.用libxml-ruby替代nokogiri，因为nokogiri优势是读取的快，写的花一般，用libxml-ruby可以这样 require 'rubygems' require 'xml' doc = XML::Document.new() [...]]]></description>
+			<content:encoded><![CDATA[<p>近日遇到一个需求是定期生成一个很大的xml文件，可能会10多w个item，过程中需要查询数据库，需要一些运算，遇到了性能问题，开始使用nokogiri，但是很慢很慢，大概的代码如下：<br />
+<code><br />
+require 'rubygems'<br />
+require 'nokogiri'<br />
+a = Time.now<br />
+builder = Nokogiri::XML::Builder.new do |xml|<br />
+  xml.root {<br />
+    (1..500000).each do |k|<br />
+    xml.products {<br />
+      xml.widget {<br />
+        xml.id_ k<br />
+        xml.name "Awesome iceskysl widget"<br />
+      }<br />
+    }<br />
+    end<br />
+  }<br />
+end<br />
+o = File.new("test_noko.xml", "w")<br />
+o.write(builder.to_xml)<br />
+o.close<br />
+puts (Time.now-a).to_s<br />
+</code></p>
+<p>这个代码有2个主要的问题：<br />
+1. 慢<br />
+2. 耗内存</p>
+<p>于是我们有两个解决方案，分别是：<br />
+<span id="more-1662"></span></p>
+<p><strong>1.用libxml-ruby替代nokogiri，因为nokogiri优势是读取的快，写的花一般，用libxml-ruby可以这样</strong><br />
+<code><br />
+require 'rubygems'<br />
+require 'xml'<br />
+doc = XML::Document.new()<br />
+doc.root = XML::Node.new('root_node')<br />
+root = doc.root</p>
+<p>500000.times do |k|<br />
+  root << elem1 = XML::Node.new('products')<br />
+  elem1 << elem2 = XML::Node.new('widget')<br />
+  elem2['id'] = k.to_s<br />
+  elem2['name'] = 'Awesome widget'<br />
+end</p>
+<p>doc.save('foo.xml', :indent => false, :encoding => XML::Encoding::UTF_8)<br />
+</code><br />
+执行的结构类似<br />
+ice@mac:/source/labs/xml > time ruby test_xml2.rb<br />
+real	0m50.065s<br />
+user	0m4.594s<br />
+sys	0m0.509s</p>
+<p><strong>2. 直接写，示范代码如下</strong><br />
+f = File.open(“foo.xml”, “w”)<br />
+f.puts(“<?xml version=\"1.0\" encoding=\"gbk\"?>“)<br />
+f.puts(&#8216;<doc>&#8216;)<br />
+500000.times do |k|<br />
+  f.puts “
+<product><widget id=\"#{k} name=\"Awesome widget\" /></product>”<br />
+end<br />
+f.puts(&#8216;</doc>&#8216;)<br />
+f.close</p>
+<p>运行结构类似这样的：<br />
+ice@mac:/source/labs/xml > time ruby test_xml.rb<br />
+real	0m0.974s<br />
+user	0m0.813s<br />
+sys	0m0.063s</p>
+<p>从上面可以看到，效率差别还是蛮大的，回到我自己的case里来，原来需要6个小时的job现在不要30分钟就搞定了（自然还有一些其他的优化，就不细说了）～～</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.iceskysl.com/?feed=rss2&#038;p=1662</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

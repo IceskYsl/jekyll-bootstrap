@@ -1,0 +1,9 @@
+---
+layout: post
+title: 取各个板块的最近发帖方法
+date: '2007-5-20'
+comments: true
+categories: Ruby&Rails
+link: true
+---
+在论坛或者别的上面程序中,首页都会显示各个论坛板块的最新的帖子,请问这个是怎么实现的,按照我的设想,应该是这个的:@posts=Post.find(:all,:order=&gt;&quot;forum_id,create_at DESC&quot; )然后在显示的时候按照forum_id来显示各自板块的最新帖子,但是这个在RHTML中怎么取出最新的帖子呢??我只能完全遍历,如下:&lt;% @posts.each do |post| %&gt;&lt;%= post.title %&gt;&lt;% end %&gt;这样就会全部显示出来,而我想要得只是每个板块的最新的那一个帖子,希望指教一二,谢了...--------1.个人参考Post.find_by_sql(&quot;select *,max(create_at) from post group forum_id&quot;2.这样也许好一点：ruby 代码   1. forums = Forum.find :all     2. @last_post_of_forum = []     3. for forum in forums     4.    @last_post_of_forum &lt;&lt; Post.find :first,:conditions=&gt;['forum_id=?',forum.id],   5.  :order =&gt; &quot;create_at DESC&quot;,:limit =&gt; 1     1. end  或者你可以在models 中设置（参考自beast）。ruby 代码   1. class Forum&lt; ActiveRecord::Base     2.    has_many :posts,:order =&gt; 'posts.created_at desc' do     3.      def last     4.         @last_post ||= find(:first, :include =&gt; :user, :limit =&gt; 1)     5.      end     6.    end     7. end     8.      9. class Post&lt; ActiveRecord::Base    10.       belongs_to :forum    11.       belongs_to :user    12. end     1. class Forum&lt; ActiveRecord::Base     2.    has_many :posts,:order =&gt; 'posts.created_at desc' do     3.      def last     4.         @last_post ||= find(:first, :include =&gt; :user, :limit =&gt; 1)     5.      end     6.    end     7. end     8.      9. class Post&lt; ActiveRecord::Base    10.       belongs_to :forum    11.       belongs_to :user    12. end  views/form/index.rhtml代码   1. &lt;td class=&quot;inv lp&quot;&gt;     2.       &lt;% if forum.posts.last %&gt;     3.         &lt;%= time_ago_in_words(forum.posts.last.created_at) %&gt;&lt;br /&gt;     4.         by &lt;strong&gt;&lt;%= h(forum.posts.last.user.display_name) %&gt;&lt;/strong&gt;     5.       &lt;% end %&gt;     6.     &lt;/td&gt;

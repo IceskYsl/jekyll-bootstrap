@@ -1,0 +1,14 @@
+---
+layout: post
+title: Rails2.2风潮来临，资源大列表
+date: '2008-11-29'
+comments: true
+categories: Ruby&Rails
+link: true
+---
+<p><img src="http://farm4.static.flickr.com/3212/3049762332_b2297a8be1.jpg?v=0" alt="" /></p>
+<p>Rails的发展速度真的不赖，从上次rails2.1发布到现在不过5个月的时间而已，现在Rails2.2已经发布了，速度不可谓不快，而这次更新涉及到的东西更多，更牛XX。</p>
+<p>以前已经说过一些Rails2.2的功能，比如线程安全，Etag等，就不说了，网上资源多的是，需要了解的自己链过去看吧，如下列举几个：</p>
+<p>http://weblog.rubyonrails.org/2008/11/21/rails-2-2-i18n-http-validators-thread-safety-jruby-1-9-compatibility-docs</p>
+<p>http://railscasts.com/episodes/137-memoization</p>
+<p><a href="http://media.rubyonrails.org/video/rails_blog_2.mov">http://media.rubyonrails.org/video/rails_blog_2.mov</a></p>

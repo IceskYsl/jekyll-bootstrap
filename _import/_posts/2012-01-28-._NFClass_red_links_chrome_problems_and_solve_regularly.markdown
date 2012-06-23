@@ -1,0 +1,26 @@
+---
+layout: post
+title: .NFClass red links chrome问题排查和解决
+date: '2012-1-28'
+comments: true
+categories: Html/css/js Tips
+tags: chrome
+link: true
+---
+不知道从什么时间开始，我在chrome中看网页的时候经常能看到红色背景的链接文字，开始以为是网站的样式除了问题，后来觉得应该是chrome浏览器出了什么问题～ 
+
+<a href="http://www.iceskysl.com/wp-content/uploads/2012/01/Screen-Shot-2012-01-28-at-5.34.42-PM.png"><img src="http://www.iceskysl.com/wp-content/uploads/2012/01/Screen-Shot-2012-01-28-at-5.34.42-PM.png" alt="" title="Screen Shot 2012-01-28 at 5.34.42 PM" width="305" height="324" class="alignnone size-full wp-image-1631" /></a>
+
+仔细检查，发现如下的css
+<a href="http://www.iceskysl.com/wp-content/uploads/2012/01/Screen-Shot-2012-01-28-at-5.41.40-PM.png"><img src="http://www.iceskysl.com/wp-content/uploads/2012/01/Screen-Shot-2012-01-28-at-5.41.40-PM.png" alt="" title="Screen Shot 2012-01-28 at 5.41.40 PM" width="322" height="71" class="alignnone size-full wp-image-1632" /></a>
+
+
+
+经过检查（Library/Application Support/Google/Chrome/Default/User StyleSheets/Custom.css），发现不是本地的css配置，最后找到是一个叫“SEO Site Tools”导致的，具体原因是：
+<blockquote>
+The reason is simple. I installed an extension called SEO Site Tools which installs an icon on the right of the address bar. When you click the button, on the window displayed there is the option “Show no follo” which is an option for displaying links that have the value nofollow for the attribute rel of an HTML element.
+
+This attribute instructs some search engines that a  hyperlink should not influence the link target’s ranking in the search engine’s index. (Source: wikipedia.org)
+</blockquote>
+
+修复的方法很简单，去掉“Show no follo”的勾选就好了～

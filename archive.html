@@ -2,9 +2,11 @@
 layout: page
 title : Archive
 header : Post Archive
-group: navigation
+group: nonavigation
 ---
 {% include JB/setup %}
 
+<div class="SL">
 {% assign posts_collate = site.posts %}
 {% include JB/posts_collate %}
+</div>

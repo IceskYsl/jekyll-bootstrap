@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} - IceskYsl@1sters!</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
 
@@ -22,38 +22,55 @@
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   -->
+
+	
   </head>
 
   <body>
-
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-          <ul class="nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
-          </ul>
-        </div>
-      </div>
-    </div>
+	<div id="bg">
+		<div id="bg-all">
+			<div class="menu">
+        	<ul>
+			 			<li><a href="/">Index</a></li>
+	          {% assign pages_list = site.pages %}
+	          {% assign group = 'navigation' %}
+	          {% include JB/pages_list %}
+	        </ul>
+			</div>
+ 
+		<div class="container">
+			<div class="page-header">
+				<div class="logo">
+				 <div class="txt">
+				 	<h1><a href="http://www.iceskysl.com/">IceskYsl@1sters</a></h1>
+				 	<p class="desc">Focus on Android,iPhone,Web,Business,Architecture,Agile,Technic and beyond…</p>
+				 </div>
+				</div>
+			</div>
+		</div>
 
     <div class="container">
-
       <div class="content">
-        {{ content }}
-      </div>
+				<div class="row">
+		  		<div class="span12">
+        	{{ content }}
+					{% include aside.html %}
+		  </div>
+		</div>
+      </div> <!--content-->
+	
+
 
       <footer>
-        <p>&copy; {{ site.author.name }} 2012 
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
+			<p>Copyright &copy;2007-2012 - Lovingly authored by {{ site.author.name }} - All my work is <a href="http://www.opensource.org/licenses/MIT">MIT licensed, Open and Free</a>. </p>
+			<p>Powered by <a href="http://jekyllrb.com/" target="_blank" title="Jekyll is a blog-aware, static site generator in Ruby">Jekyll</a> & <a href="http://jekyllbootstrap.com/" target="_blank" title="Jekyll-Bootstrap is a lean blogging framework made for developers and designers.">Jekyll-Bootstrap</a> - Theme by <a href="http://www.iceskysl.com/" target="_blank" title="Focus on Android,iPhone,Web,Business,Architecture,Agile,Technic and beyond…">IceskYsl@1sters!</a> - Build by <a href="http://daringfireball.net/projects/markdown/" target="_blank" title="Markdown is a text-to-HTML conversion tool for web writers">Markdown</a>,<a href="http://liquidmarkup.org/" target="_blank" title="Liquid markup language">Liquid</a>,<a href="https://github.com/" target="_blank" title="GitHub">GitHub</a>,  <a href="http://disqus.com/" target="_blank" title="Disqus is a global comment system that improves discussion on websites and connects conversations across the web.">Disqus</a></p>	
       </footer>
 
     </div> <!-- /container -->
 
     {% include JB/analytics %}
+		</div>
+	</div>
+	
   </body>
 </html>
