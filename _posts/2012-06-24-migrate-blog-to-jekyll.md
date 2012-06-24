@@ -18,3 +18,6 @@ comments: true
 UPDATE:
 完善了自动部署系统～
 
+
+参考：
+https://github.com/mojombo/jekyll/wiki/Deployment
