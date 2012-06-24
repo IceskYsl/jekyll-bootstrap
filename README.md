@@ -40,3 +40,19 @@ The master and gh-pages branch do not share the same ancestry. Please treat them
 ## License
 
 [Creative Commons](http://creativecommons.org/licenses/by-nc-sa/3.0/)
+
+
+GIT_REPO=/datas/gitroot/jekyll-bootstrap.git
+TMP_GIT_CLONE=/var/tmp/jekyll-bootstrap
+PUBLIC_WWW=/datas/www/iceskysl/blog
+
+git clone $GIT_REPO $TMP_GIT_CLONE
+jekyll --no-auto $TMP_GIT_CLONE $PUBLIC_WWW
+rm -Rf $TMP_GIT_CLONE
+exit
+
+#git remote add deploy root@74.207.232.111:/datas/gitroot/jekyll-bootstrap.git
+
+
+/datas/www/iceskysl/current
+/datas/www/iceskysl/jekyll-bootstrap/_site
