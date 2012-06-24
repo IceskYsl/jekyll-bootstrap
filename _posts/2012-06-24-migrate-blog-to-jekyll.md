@@ -4,6 +4,8 @@ title: "将blog迁移jekyll"
 description: ""
 categories: 无心呢喃
 tags: [jekyll]
+date: '2012-6-21'
+comments: true
 ---
 {% include JB/setup %}
 
